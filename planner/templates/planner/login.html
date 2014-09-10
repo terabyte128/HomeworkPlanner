@@ -1,0 +1,18 @@
+{% extends "planner/base.html" %}
+
+{% block page_id %}auth_home{% endblock %}
+
+{% block header_text %}Login to Planner{% endblock %}
+
+{% block main_content %}
+    <form action="{% url 'planner:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;">
+        {% csrf_token %}
+        <input type="text" placeholder="Usernane" name="username" required="true">
+        <input type="password" placeholder="Password" name="password" required="true">
+        <button type="submit" class="ui-btn ui-btn-icon-left ui-icon-home">Login</button>
+        <br>
+        <a href="#">Create an account</a>
+    </form>
+{% endblock %}
+
+{% block footer_text %}{% endblock %}
