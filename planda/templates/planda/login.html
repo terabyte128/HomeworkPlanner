@@ -1,0 +1,18 @@
+{% extends "planda/base.html" %}
+
+{% block page_id %}auth_home{% endblock %}
+
+{% block header_text %}Login to Planda{% endblock %}
+
+{% block main_content %}
+    <form action="{% url 'planda:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;">
+        {% csrf_token %}
+        <input type="text" placeholder="Usernane" name="username" required="true">
+        <input type="password" placeholder="Password" name="password" required="true">
+        <button type="submit" class="ui-btn ui-btn-icon-right ui-icon-sign-in">Login</button>
+        <br>
+        <a href="#" class="ui-btn ui-btn-icon-right ui-icon-linux">Create an account</a>
+    </form>
+{% endblock %}
+
+{% block footer_text %}{% endblock %}
