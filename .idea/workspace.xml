@@ -2,616 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964055db-7805-410d-b1ef-883872c0b052" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/action-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/action-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/adjust.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/adn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/alert-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/alert-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/align-center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/align-justify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/align-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/align-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/ambulance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-double-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-double-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-double-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-double-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/angle-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/archive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-o-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-o-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-o-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-o-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-circle-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-d-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-d-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-d-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-d-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-d-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-d-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-u-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-u-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-u-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-u-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-u-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/arrow-u-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrow-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrows-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrows-h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrows-v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/asterisk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/audio-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/audio-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/back-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/back-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/backward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/ban.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bar-chart-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/barcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/bars-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/bars-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/beer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bell-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bitbucket-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bitbucket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bitcoin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bolt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bookmark-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bookmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/briefcase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/building-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/bullets-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/bullets-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bullhorn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/bullseye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/calendar-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/calendar-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/calendar-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/camera-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/camera-retro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/camera-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-d-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-d-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-l-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-l-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-r-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-r-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-u-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/carat-u-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/caret-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/caret-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/caret-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/caret-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/certificate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/check-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/check-circle-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/check-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/check-square-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/check-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/check-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-circle-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-circle-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-circle-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-circle-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/chevron-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/circle-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/clipboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/clock-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/clock-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/clock-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/cloud-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/cloud-download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/cloud-upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/cloud-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/cloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/code-fork.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/columns.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/comment-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/comment-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/comment-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/comment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/comments-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/comments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/compass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/compress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/credit-card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/crop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/crosshairs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/css3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/cutlery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/dashboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/dedent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/delete-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/delete-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/desktop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/dot-circle-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/dropbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/edit-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/edit-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/eject.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/ellipsis-h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/ellipsis-v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/envelope-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/envelope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/eraser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/euro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/exchange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/exclamation-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/exclamation-triangle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/exclamation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/expand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/external-link-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/external-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/external-link3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/eye-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/eye-slash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/eye-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/eye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/facebook-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/facebook3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/fast-backward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/fast-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/fighter-jet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/file-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/file-text-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/file-text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/files-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/film.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/fire-extinguisher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/fire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/flag-checkered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/flag-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/flask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/flickr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/folder-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/folder-open-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/folder-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/forbidden-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/forbidden-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/forward-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/forward-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/foursquare.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/frown-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gamepad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gavel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gbp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/gear-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/gear-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gears.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gift.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/github-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/github-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/gittip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/globe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/globe3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/google-plus-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/google-plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/grid-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/grid-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/h-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/hand-o-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/hand-o-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/hand-o-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/hand-o-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/hdd-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/headphones.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/heart-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/heart-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/heart-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/home-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/home-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/hospital-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/html5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/i09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/inbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/indent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/info-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/info-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/info-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/inr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/jpy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/keyboard-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/krw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/laptop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/leaf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/lemon-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/level-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/level-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/lightbulb-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/linkedin-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/linux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/list-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/list-ol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/list-ul.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/location-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/location-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/location-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/lock-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/lock-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/long-arrow-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/long-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/long-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/long-arrow-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/magic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/magnet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/mail-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/mail-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/mail-reply-all.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/mail-reply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/mail-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/map-marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/maxcdn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/medkit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/meh-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/microphone-slash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/microphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/minus-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/minus-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/minus-square-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/minus-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/minus-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/moon-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/navigation-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/navigation-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/pagelines.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/paperclip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/pencil-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/phone-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/phone-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/phone-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/picture-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/pinterest-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/pinterest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/play-circle-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/play-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/plus-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/plus-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/plus-square-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/plus-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/plus-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/power-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/power-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/power-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/puzzle-piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/question-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/quote-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/quote-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/recycle-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/recycle-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/refresh-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/refresh-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/retweet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/road.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/rocket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/rotate-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/rss-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/rub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/scissors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/search-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/search-minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/search-plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/search-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/share-square-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/share-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/shield.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/shop-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/shop-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/shopping-cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sign-in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sign-out.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/signal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sitemap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/smile-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-alpha-asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-alpha-desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-amount-asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-amount-desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-numeric-asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-numeric-desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sort.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/spinner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/square-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/stack-exchange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/stack-overflow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/star-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/star-half-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/star-half.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/star-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/star-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/step-backward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/step-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/stethoscope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/strikethrough.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/subscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/suitcase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/sun-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/superscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/tablet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/tag-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/tag-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/tag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/tags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/terminal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/text-height.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/text-width.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/th-large.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/th-list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/thumb-tack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/thumbs-o-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/thumbs-o-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/thumbs-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/thumbs-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/ticket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/times-circle-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/times-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/times.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/tint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/toggle-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/toggle-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/toggle-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/toggle-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/trash-o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/trello.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/truck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/tumblr-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/turkish-lira.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/twitter-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/umbrella.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/unlink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/unlock-alt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/usd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/user-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/user-md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/user-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/video-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/video-camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-png/video-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/vimeo-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/vk3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/volume-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/volume-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/volume-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/weibo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/wheelchair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/windows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/wrench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/xing-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/xing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/youtube-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/youtube-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/png/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/action-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/action-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/alert-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/alert-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-d-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-d-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-d-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-d-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-d-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-d-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-u-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-u-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-u-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-u-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-u-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/arrow-u-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/audio-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/audio-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/back-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/back-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/bars-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/bars-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/templates/planda/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/bullets-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/bullets-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/calendar-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/calendar-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/camera-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/camera-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-d-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-d-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-l-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-l-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-r-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-r-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-u-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/carat-u-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/check-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/check-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/clock-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/clock-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/cloud-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/cloud-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/comment-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/comment-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/templates/planda/courses.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/delete-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/delete-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/edit-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/edit-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/eye-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/eye-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/forbidden-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/forbidden-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/forward-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/forward-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/fullcalendar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/gear-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/gear-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/grid-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/grid-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/heart-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/heart-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/home-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/home-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/templates/planda/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/info-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/info-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/jqm-icon-pack-fa.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/jquery.mobile-1.4.3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/jquery.mobile-1.4.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/location-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/location-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/lock-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/lock-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/templates/planda/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/mail-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/mail-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/minus-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/minus-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/navigation-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/navigation-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/phone-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/phone-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/plus-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/plus-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/power-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/power-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/recycle-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/recycle-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/refresh-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/refresh-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/search-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/search-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/shop-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/shop-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/templates/planda/single_assignment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/star-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/star-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/tag-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/tag-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/user-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/user-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/video-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/static/planda/js/images/icons-svg/video-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planda/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/assignments.html" afterPath="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/index.html" afterPath="$PROJECT_DIR$/planda/templates/planda/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/login.html" afterPath="$PROJECT_DIR$/planda/templates/planda/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/single_assignment.html" afterPath="$PROJECT_DIR$/planda/templates/planda/single_assignment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/static/planda/css/style.css" afterPath="$PROJECT_DIR$/planda/static/planda/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/urls.py" afterPath="$PROJECT_DIR$/planda/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/views.py" afterPath="$PROJECT_DIR$/planda/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeworkPlanner.iws" />
@@ -638,7 +36,16 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planda/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+            <state line="14" column="1" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planda/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="9" selection-start="3628" selection-end="3628" vertical-scroll-proportion="0.0" vertical-offset="1633" max-vertical-offset="2145">
               <folding />
             </state>
           </provider>
@@ -647,34 +54,7 @@
       <file leaf-file-name="single_assignment.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planda/templates/planda/single_assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/planda/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="59" selection-start="753" selection-end="753" vertical-scroll-proportion="0.42471042" vertical-offset="0" max-vertical-offset="777">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="59" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="960">
+            <state line="8" column="104" selection-start="249" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -683,34 +63,25 @@
       <file leaf-file-name="assignments.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="253" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="795">
+            <state line="52" column="32" selection-start="1712" selection-end="1712" vertical-scroll-proportion="-23.25" vertical-offset="222" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="65" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="345">
+            <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.019305019" vertical-offset="0" max-vertical-offset="777">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/admin.py">
+      <file leaf-file-name="jquery.mobile-1.4.3.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planda/static/planda/css/jquery.mobile-1.4.3.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="courses.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -745,9 +116,15 @@
         <option value="$PROJECT_DIR$/planner/templates/planner/assignments.html" />
         <option value="$PROJECT_DIR$/planner/templates/planner/login.html" />
         <option value="$PROJECT_DIR$/planda/templates/planner/login.html" />
-        <option value="$PROJECT_DIR$/planda/templates/planda/login.html" />
-        <option value="$PROJECT_DIR$/planda/templates/planda/index.html" />
         <option value="$PROJECT_DIR$/planda/models.py" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/single_assignment.html" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/login.html" />
+        <option value="$PROJECT_DIR$/planda/urls.py" />
+        <option value="$PROJECT_DIR$/planda/views.py" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/index.html" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
+        <option value="$PROJECT_DIR$/planda/static/planda/css/style.css" />
+        <option value="$PROJECT_DIR$/planda/static/planda/css/style" />
       </list>
     </option>
   </component>
@@ -868,6 +245,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="HomeworkPlanner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -895,6 +298,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/planda/static/planda/css" />
       <recent name="$PROJECT_DIR$/planner" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1141,7 +545,11 @@
       <created>1410411363420</created>
       <updated>1410411363420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="apparently some things needed to be git added?!?!?">
+      <created>1410411515301</created>
+      <updated>1410411515301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1183,12 +591,83 @@
     </option>
     <MESSAGE value="Updated things." />
     <MESSAGE value="Updated more things." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated more things." />
+    <MESSAGE value="apparently some things needed to be git added?!?!?" />
+    <option name="LAST_COMMIT_MESSAGE" value="apparently some things needed to be git added?!?!?" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/single_assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="104" selection-start="249" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="32" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/single_assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="104" selection-start="249" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="139" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="100" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="149" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/planda/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="1" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -1205,9 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="59" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="23" column="59" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
@@ -1240,9 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
@@ -1268,7 +743,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="22" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1575" />
+        <state line="89" column="22" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1575">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
@@ -1294,9 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
@@ -1322,7 +797,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="1140" />
+        <state line="62" column="0" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="1140">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
@@ -1341,9 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
@@ -1355,7 +830,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeworkPlanner/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
+        <state line="13" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/static/planda/css/jqm-icon-pack-fa.css">
@@ -1365,9 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="12" selection-start="2015" selection-end="2036" vertical-scroll-proportion="0.9235474" vertical-offset="354" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="84" column="12" selection-start="2015" selection-end="2036" vertical-scroll-proportion="0.9235474" vertical-offset="354" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/settings.py">
@@ -1380,70 +857,82 @@
         <state line="357" column="16" selection-start="13037" selection-end="13041" vertical-scroll-proportion="0.82263" vertical-offset="4308" max-vertical-offset="7620" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/admin.py">
+    <entry file="file://$PROJECT_DIR$/planda/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="20" column="5" selection-start="624" selection-end="624" vertical-scroll-proportion="0.5566406" vertical-offset="0" max-vertical-offset="512" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="253" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+        <state line="14" column="1" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="22" selection-start="2534" selection-end="2534" vertical-scroll-proportion="1.1660156" vertical-offset="618" max-vertical-offset="1455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/single_assignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
+        <state line="135" column="9" selection-start="3628" selection-end="3628" vertical-scroll-proportion="0.0" vertical-offset="1633" max-vertical-offset="2145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/models.py">
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="59" selection-start="753" selection-end="753" vertical-scroll-proportion="0.42471042" vertical-offset="0" max-vertical-offset="777">
+        <state line="23" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="-0.21106558" vertical-offset="448" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="751" selection-end="751" vertical-scroll-proportion="0.522541" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="168" selection-end="168" vertical-scroll-proportion="0.17578125" vertical-offset="0" max-vertical-offset="512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="270" selection-end="270" vertical-scroll-proportion="0.43032786" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.522541" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/single_assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="104" selection-start="249" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/static/planda/css/jquery.mobile-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="32" selection-start="1712" selection-end="1712" vertical-scroll-proportion="-23.25" vertical-offset="222" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.019305019" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>

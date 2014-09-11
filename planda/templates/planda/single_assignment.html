@@ -6,8 +6,8 @@
 {% endblock %}
 
 {% block header_text %}
-    <a href="{% url 'planda:assignments' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l">Assignments</a>
-    <a href="{% url 'planda:assignments' %}" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-edit">Edit</a>
+    <a href="{% url 'planda:assignments' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l" data-transition="slide" data-direction="reverse">Assignments</a>
+    <a href="#" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-edit">Edit</a>
     {{ assignment.name }}
 {% endblock %}
 
@@ -15,7 +15,6 @@
 
     <h2>{{ assignment.name }}</h2>
     <p>{{ assignment.description }}</p>
-    <hr>
     <p>Due {{ assignment.due_date }}</p>
 
 {% endblock %}

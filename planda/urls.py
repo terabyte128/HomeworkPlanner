@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     url(r'^logout/$', views.logout_user, name='logout_user'),
     url(r'^assignments/$', views.assignments, name='assignments'),
     url(r'^assignments/(?P<assignment_id>[0-9]+)/$', views.assignment_detail, name='assignments'),
+    url(r'^assignments/(?P<assignment_id>[0-9]+)/toggle_completed/$', views.assignment_toggle_completed, name='assignment_toggle_completed'),
     url(r'^courses/$', views.courses, name='courses'),
     #url(r'^logout/$', views.logout_user, name='logout_user')
 

@@ -1,3 +1,5 @@
+import json
+
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.core.urlresolvers import reverse
@@ -98,3 +100,39 @@ def assignment_detail(request, assignment_id):
 @login_required
 def courses(request):
     pass
+
+
+@login_required
+def assignment_toggle_completed(request, assignment_id):
+
+    try:
+        assignment = Assignment.objects.get(id=assignment_id)
+
+        # are they allowed to view?
+        if assignment.course.user == request.user:
+            assignment.completed = not assignment.completed
+
+            assignment.save()
+
+            is_completed = assignment.completed
+
+            response = {
+                'changed': True,
+                'completed': is_completed
+            }
+
+        else:
+            response = {
+                'changed': False,
+                'completed': False
+            }
+
+    except Assignment.DoesNotExist:
+        messages.error(request, "Assignment not found.")
+
+        response = {
+            'changed': False,
+            'completed': False
+        }
+
+    return HttpResponse(json.dumps(response), content_type="application/json")

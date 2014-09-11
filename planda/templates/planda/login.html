@@ -5,7 +5,7 @@
 {% block header_text %}Login to Planda{% endblock %}
 
 {% block main_content %}
-    <form action="{% url 'planda:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;">
+    <form action="{% url 'planda:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
         {% csrf_token %}
         <input type="text" placeholder="Usernane" name="username" required="true">
         <input type="password" placeholder="Password" name="password" required="true">
