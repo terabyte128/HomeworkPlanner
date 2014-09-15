@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964055db-7805-410d-b1ef-883872c0b052" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeworkPlanner/settings.py" afterPath="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeworkPlanner/wsgi.py" afterPath="$PROJECT_DIR$/HomeworkPlanner/wsgi.py" />
     </list>
     <ignored path="HomeworkPlanner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +28,44 @@
     <favorites_list name="HomeworkPlanner" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="14" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="1" selection-start="2539" selection-end="2539" vertical-scroll-proportion="-20.96" vertical-offset="1036" max-vertical-offset="1650">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HomeworkPlanner/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="17" selection-start="502" selection-end="502" vertical-scroll-proportion="0.4397394" vertical-offset="0" max-vertical-offset="614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -39,7 +80,6 @@
       <list>
         <option value="$PROJECT_DIR$/planner/models.py" />
         <option value="$PROJECT_DIR$/planner/static/planner/css/jqm-icon-pack-fa.css" />
-        <option value="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
         <option value="$PROJECT_DIR$/planner/settings.py" />
         <option value="$PROJECT_DIR$/planner/templates/planner/classes.html" />
         <option value="$PROJECT_DIR$/planner/templates/planner/base.html" />
@@ -72,6 +112,10 @@
         <option value="$PROJECT_DIR$/planda/templates/planda/index.html" />
         <option value="$PROJECT_DIR$/planda/views.py" />
         <option value="$PROJECT_DIR$/planda/templates/planda/preferences.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
+        <option value="$PROJECT_DIR$/HomeworkPlanner/wsgi.py" />
       </list>
     </option>
   </component>
@@ -113,6 +157,44 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="HomeworkPlanner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -405,7 +487,11 @@
       <created>1410812728773</created>
       <updated>1410812728773</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Release 1: most things work!">
+      <created>1410813005291</created>
+      <updated>1410813005291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -458,20 +544,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="47" selection-start="2928" selection-end="2928" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/single_assignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="59" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="420" />
@@ -611,11 +683,6 @@
     <entry file="file://$PROJECT_DIR$/planda/static/planda/css/jqm-icon-pack-fa.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1508" column="3128" selection-start="666624" selection-end="666624" vertical-scroll-proportion="14.067908" vertical-offset="9776" max-vertical-offset="22755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="12" selection-start="2015" selection-end="2036" vertical-scroll-proportion="0.9235474" vertical-offset="354" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/settings.py">
@@ -772,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeworkPlanner/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.3286385" vertical-offset="0" max-vertical-offset="639">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/preferences.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24390244" vertical-offset="0" max-vertical-offset="615">
@@ -808,6 +868,34 @@
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="1" selection-start="2539" selection-end="2539" vertical-scroll-proportion="-20.96" vertical-offset="1036" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeworkPlanner/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="502" selection-end="502" vertical-scroll-proportion="0.4397394" vertical-offset="0" max-vertical-offset="614">
+          <folding />
         </state>
       </provider>
     </entry>

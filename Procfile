@@ -1,2 +1,2 @@
-web: gunicorn HomeworkPlannero.wsgi --log-file -
+web: gunicorn HomeworkPlanner.wsgi --log-file -
 
