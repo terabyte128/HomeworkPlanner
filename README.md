@@ -1,0 +1,4 @@
+HomeworkPlanner
+===============
+
+django + jqm + happy
