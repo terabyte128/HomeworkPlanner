@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964055db-7805-410d-b1ef-883872c0b052" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/base.html" afterPath="$PROJECT_DIR$/planda/templates/planda/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/assignments.html" afterPath="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
     </list>
     <ignored path="HomeworkPlanner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.43824703" vertical-offset="0" max-vertical-offset="1020">
+            <state line="22" column="9" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assignments.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.1418919" vertical-offset="0" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
@@ -105,7 +114,6 @@
         <option value="$PROJECT_DIR$/planda/static/planda/js/jquery.mobile.datepicker.js" />
         <option value="$PROJECT_DIR$/planda/static/planda/css/jquery.mobile.datepicker.theme.css" />
         <option value="$PROJECT_DIR$/planda/static/planda/css/style.css" />
-        <option value="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
         <option value="$PROJECT_DIR$/planda/templates/planda/single_assignment.html" />
         <option value="$PROJECT_DIR$/planda/views/assignments.py" />
         <option value="$PROJECT_DIR$/HomeworkPlanner/urls.py" />
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
         <option value="$PROJECT_DIR$/planda/templates/planda/base.html" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
       </list>
     </option>
   </component>
@@ -571,7 +580,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25694445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25694445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -834,13 +843,6 @@
         <state line="13" column="39" selection-start="528" selection-end="528" vertical-scroll-proportion="0.32392028" vertical-offset="0" max-vertical-offset="602" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2888" selection-end="3897" vertical-scroll-proportion="1.6196014" vertical-offset="0" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/preferences.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24390244" vertical-offset="0" max-vertical-offset="615">
@@ -906,7 +908,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.43824703" vertical-offset="0" max-vertical-offset="1020">
+        <state line="22" column="9" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.1418919" vertical-offset="0" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
