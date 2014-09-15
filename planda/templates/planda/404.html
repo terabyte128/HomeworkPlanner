@@ -1,0 +1,16 @@
+{% extends "planda/base.html" %}
+
+{% load staticfiles %}
+
+{% block page_id %}auth_home{% endblock %}
+
+{% block header_text %}Error 404{% endblock %}
+
+{% block main_content %}
+    <div style="text-align: center;"><
+        <img src="{% static 'planda/img/omg_404.png' %}" style="max-width: 300px;" />
+
+    </div>
+{% endblock %}
+
+{% block footer_text %}{% endblock %}

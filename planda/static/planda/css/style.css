@@ -1,3 +1,14 @@
-.foo {
+.homework-item-checked strong, .homework-item-checked span, .homework-item-checked small {
+    font-style: oblique;
+    font-weight: lighter !important;
+    color: darkgray !important;
+}
 
+.homework-item label.ui-btn {
+    font-weight: normal;
+}
+
+.editable-click.editable-disabled, a.editable-click.editable-disabled, a.editable-click.editable-disabled:hover {
+    color: #000000;
+    font-weight: normal;
 }

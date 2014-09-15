@@ -6,9 +6,15 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="mobile-web-app-capable" content="yes">
         <!-- styles -->
-        <link rel="stylesheet" href="{% static 'planda/css/jquery.mobile-1.4.3.min.css' %}">
-        <link rel="stylesheet" href="{% static 'planda/css/style.css' %}">
-        <link rel="stylesheet" href="{% static 'planda/css/jqm-icon-pack-fa.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'planda/css/jquery.mobile-1.4.3.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'planda/css/jqm-icon-pack-fa.css' %}">
+
+        {% block header %}{% endblock %}
+
+        <link rel="stylesheet" type="text/css" href="{% static 'planda/css/jquery-editable.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'planda/css/jquery.mobile.datepicker.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'planda/css/jquery.mobile.datepicker.theme.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'planda/css/style.css' %}">
 
         <style type="text/css">
         /* for hiding column toggle buttons in tables */
@@ -24,10 +30,18 @@
 
 
         </style>
-        {% block header %}{% endblock %}
+
+        <!-- scripts -->
+        <script type="text/javascript" src="{% static 'planda/js/jquery-1.11.1.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'planda/js/jquery.mobile-1.4.3.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'planda/js/jquery.cookie.js' %}"></script>
+        <script type="text/javascript" src="{% static 'planda/js/jquery-editable-poshytip.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'planda/js/moment.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'planda/js/jquery-ui-datepicker.js' %}"></script>
+        <script type="text/javascript" src="{% static 'planda/js/jquery.mobile.datepicker.js' %}"></script>
+
     </head>
     <body>
-
         <div data-role="page" id="{% block page_id %}{% endblock %}">
             <div data-role="header" data-position="fixed">
                 {% block header_buttons %}{% endblock %}
@@ -48,12 +62,10 @@
             <div data-role="footer" data-position="fixed">
                 <h1>{% block footer_text %}{% endblock %}</h1>
             </div>
+
+            {% block scripts %}{% endblock %}
         </div>
 
-        <!-- scripts -->
-        <script type="text/javascript" src="{% static 'planda/js/jquery-1.11.1.min.js' %}"></script>
-        <script type="text/javascript" src="{% static 'planda/js/jquery.mobile-1.4.3.min.js' %}"></script>
-
-        {% block scripts %}{% endblock %}
+        {% block panels %}{% endblock %}
     </body>
 </html>

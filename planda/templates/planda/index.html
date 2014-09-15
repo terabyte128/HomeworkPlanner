@@ -11,7 +11,7 @@
     <a class="ui-btn ui-btn-icon-left ui-icon-pencil-square" href="{% url 'planda:assignments' %} "data-transition="slide">Assignments</a>
     <a class="ui-btn ui-btn-icon-left ui-icon-folder-o" href="{% url 'planda:courses' %}" data-transition="slide">Courses</a>
     <br>
-    <button class="ui-btn ui-btn-icon-left ui-icon-gear" data-transition="slide">Preferences</button>
+    <a href="{% url 'planda:preferences' %}" class="ui-btn ui-btn-icon-left ui-icon-gear" data-transition="slide">Preferences</a>
     <a class="ui-btn ui-btn-icon-left ui-icon-sign-out" href="{% url 'planda:logout_user' %}" data-transition="pop" data-direction="reverse">Log Out</a>
 
 {% endblock %}

@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 
 from django.contrib import messages
@@ -6,7 +7,7 @@ from django.core.urlresolvers import reverse
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
-from django.http.response import HttpResponse, HttpResponseRedirect
+from django.http.response import HttpResponse, HttpResponseRedirect, Http404
 
 from planda.models import Assignment, Course
 
@@ -53,25 +54,53 @@ def logout_user(request):
     return HttpResponseRedirect(reverse('planda:index'))
 
 
+# Assignment views
+
 @login_required
 def assignments(request):
+
+    if 'assignmentName' in request.POST:
+        return assignment_add(request)
+
     user = request.user
 
-    courses = Course.objects.filter(user=user)
+    courses = Course.objects.filter(user=user).order_by('period')
 
     course_list = []
 
     for course in courses:
-        assignments = Assignment.objects.filter(course=course)
+        assignments = Assignment.objects.filter(course=course).order_by('due_date')
+
+        assignment_wrapper = []
+
+        for assignment in assignments:
+            overdue = (assignment.due_date < datetime.now().date()) and not assignment.completed
+
+            if not (not overdue and assignment.due_date < datetime.now().date()):
+
+                single_wrapper = {
+                    'name': assignment.name,
+                    'id': assignment.id,
+                    'description': assignment.description,
+                    'due_date': assignment.due_date,
+                    'completed': assignment.completed,
+                    'overdue': overdue
+                }
+
+                assignment_wrapper.append(single_wrapper)
 
         assignment_list = {
             'course_name': course.name,
-            'assignments': assignments
+            'assignments': assignment_wrapper
         }
 
         course_list.append(assignment_list)
 
     context = {
+        # raw course objects (for form)
+        'courses': courses,
+
+        # list with assignments
         'course_list': course_list,
     }
 
@@ -83,28 +112,21 @@ def assignment_detail(request, assignment_id):
     try:
         assignment = Assignment.objects.get(id=assignment_id)
     except Assignment.DoesNotExist:
-        messages.error(request, "Assignment not found.")
-        return HttpResponseRedirect(reverse('planda:assignments'))
+        raise Http404
 
     # are they allowed to view?
     if assignment.course.user == request.user:
         context = {
             'assignment': assignment,
+            'due_date': assignment.due_date.strftime("%Y-%m-%d")
         }
         return render(request, "planda/single_assignment.html", context)
 
     else:
-        messages.error(request, "Assignment not found.")
-        return HttpResponseRedirect(reverse('planda:assignments'))
-
-@login_required
-def courses(request):
-    pass
-
+        raise Http404
 
 @login_required
 def assignment_toggle_completed(request, assignment_id):
-
     try:
         assignment = Assignment.objects.get(id=assignment_id)
 
@@ -128,7 +150,6 @@ def assignment_toggle_completed(request, assignment_id):
             }
 
     except Assignment.DoesNotExist:
-        messages.error(request, "Assignment not found.")
 
         response = {
             'changed': False,
@@ -136,3 +157,174 @@ def assignment_toggle_completed(request, assignment_id):
         }
 
     return HttpResponse(json.dumps(response), content_type="application/json")
+
+
+def assignment_delete(request, assignment_id):
+    try:
+        assignment = Assignment.objects.get(id=assignment_id)
+
+        # are they allowed to view?
+        if assignment.course.user == request.user:
+
+            assignment.delete()
+
+            response = {
+                'deleted': True,
+            }
+
+        else:
+            response = {
+                'deleted': False,
+                'reason': "NotAllowed"
+            }
+
+    except Assignment.DoesNotExist:
+
+        response = {
+            'deleted': False,
+            'reason': "DoesNotExist"
+        }
+
+    # return HttpResponse(json.dumps(response), content_type="application/json")
+
+    # if not response['deleted']:
+        # messages.error(request, "An error occured while deleting your assignment: " + response['reason'])
+
+    return HttpResponseRedirect(reverse('planda:assignments'))
+
+
+@login_required
+def assignment_edit(request):
+    name = request.POST['name']
+    pk = request.POST['pk']
+    value = request.POST['value']
+
+    assignment = Assignment.objects.get(id=pk)
+
+    if assignment.course.user == request.user:
+        setattr(assignment, name, value)
+        assignment.save()
+
+        return HttpResponse(status=200)
+
+
+@login_required
+def assignment_add(request):
+    if 'assignmentName' in request.POST:
+        name = request.POST['assignmentName']
+        description = request.POST['assignmentDescription']
+        due_date = request.POST['assignmentDueDate']
+        course = request.POST['assignmentCourse']
+
+        new_assignment = Assignment(name=name, description=description, due_date=due_date, course=Course.objects.get(id=course))
+
+        new_assignment.save()
+
+    return HttpResponseRedirect(reverse('planda:assignments'))
+
+
+# Course Views
+
+def courses(request):
+    try:
+        courses = Course.objects.filter(user=request.user)
+
+    except Course.DoesNotExist:
+        courses = []
+
+    context = {
+        'courses': courses
+    }
+
+    return render(request, 'planda/courses.html', context)
+
+
+def course_detail(request, course_id):
+    try:
+        course = Course.objects.get(id=course_id)
+
+        if request.user != course.user:
+            raise Http404
+
+        context = {
+            'course': course,
+            # 'assignment_number': len(course.assignment_set)
+        }
+
+        return render(request, 'planda/single_course.html', context)
+
+    except Course.DoesNotExist:
+        raise Http404
+
+
+@login_required
+def course_edit(request):
+    name = request.POST['name']
+    pk = request.POST['pk']
+    value = request.POST['value']
+
+    try:
+        course = Course.objects.get(id=pk)
+
+        if course.user == request.user:
+            setattr(course, name, value)
+            course.save()
+
+            return HttpResponse(status=200)
+
+    except Course.DoesNotExist:
+        return Http404
+
+@login_required
+def course_delete(request, course_id):
+    try:
+        course = Course.objects.get(id=course_id)
+
+        # are they allowed to view?
+        if course.user == request.user:
+
+            course.delete()
+
+            response = {
+                'deleted': True,
+            }
+
+        else:
+            response = {
+                'deleted': False,
+                'reason': "NotAllowed"
+            }
+
+    except Course.DoesNotExist:
+
+        response = {
+            'deleted': False,
+            'reason': "DoesNotExist"
+        }
+
+    # return HttpResponse(json.dumps(response), content_type="application/json")
+
+    # if not response['deleted']:
+        # messages.error(request, "An error occured while deleting your assignment: " + response['reason'])
+
+    return HttpResponseRedirect(reverse('planda:courses'))
+
+
+def course_add(request):
+    if 'courseName' in request.POST:
+        name = request.POST['courseName']
+        description = request.POST['courseDescription']
+        period = request.POST['coursePeriod']
+
+        new_course = Course(user=request.user, name=name, description=description, period=period)
+
+        new_course.save()
+
+    return HttpResponseRedirect(reverse('planda:courses'))
+
+
+# Preferences
+
+
+def preferences(request):
+    return render(request, 'planda/preferences.html')

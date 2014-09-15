@@ -3,13 +3,34 @@
 {% block page_id %}auth_home{% endblock %}
 
 {% block header_buttons %}
+    <a href="{% url 'planda:index' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l" data-transition="slide" data-direction="reverse">Home</a>
+    <a href="#panelAddCourse" data-display="push" data-position="right" data-rel="panel" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-plus">Add</a>
 {% endblock %}
 
-{% block header_text %}Welcome, {{ user.first_name }}{% endblock %}
+{% block header_text %}Courses{% endblock %}
+{% block title %}Courses{% endblock %}
 
 {% block main_content %}
+    <ul data-role="listview" data-split-theme="a" data-split-icon="carat-r" id="assignment-list">
+    {% for course in courses %}
+        <li>
+            <a href="{% url 'planda:courses' %}{{ course.id }}/" data-transition="slide">{{ course.name }}</a>
+        </li>
+    {% endfor %}
+    </ul>
 
-
+    <div data-role="panel" id="panelAddCourse" data-display="overlay" data-position="right">
+    <form action="{% url 'planda:course_add' %}" method="post">
+        {% csrf_token %}
+        <div>
+            <h3 style="margin-top: 10px;">Add Course</h3>
+            <input type="text" placeholder="Name" name="courseName" required>
+            <input type="number" placeholder="Period" name="coursePeriod">
+            <textarea placeholder="Description" name="courseDescription"></textarea>
+            <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-check">Create</button>
+        </div>
+    </form>
+</div>
 {% endblock %}
 
 {% block footer_text %}{% endblock %}

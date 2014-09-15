@@ -1,10 +1,16 @@
 {% extends "planda/base.html" %}
 
+{% load staticfiles %}
+
 {% block page_id %}auth_home{% endblock %}
 
 {% block header_text %}Login to Planda{% endblock %}
+{% block title %}Login to Planda{% endblock %}
 
 {% block main_content %}
+    <br>
+    <div style="text-align: center;"><image src="{% static 'planda/img/panda.png' %}" style="max-width: 300px;" /></div>
+    <br>
     <form action="{% url 'planda:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
         {% csrf_token %}
         <input type="text" placeholder="Usernane" name="username" required="true">

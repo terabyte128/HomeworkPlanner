@@ -2,20 +2,70 @@
 
 {% block page_id %}auth_home{% endblock %}
 
+{% block title %}{{ assignment.name }}{% endblock %}
+
 {% block header_buttons %}
 {% endblock %}
 
 {% block header_text %}
     <a href="{% url 'planda:assignments' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l" data-transition="slide" data-direction="reverse">Assignments</a>
-    <a href="#" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-edit">Edit</a>
+    <a href="#" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-edit" id="toggle-editable">Edit</a>
     {{ assignment.name }}
 {% endblock %}
 
 {% block main_content %}
+    <div id="assignment-detail">
+        <h1 style="margin-bottom: 0px;"><a class="editable" href="#" data-type="text" data-title="Assignment Name" data-pk="{{ assignment.id }}" data-name="name" style="font-weight: bold;">{{ assignment.name }}</a></h1>
+        <small>{{ assignment.course.name }}</small>
 
-    <h2>{{ assignment.name }}</h2>
-    <p>{{ assignment.description }}</p>
-    <p>Due {{ assignment.due_date }}</p>
+        <p><a class="editable" href="#" data-type="textarea" data-title="Assignment Description" data-pk="{{ assignment.id }}" data-name="description">{{ assignment.description }}</a></p>
+        <p>Due <a class="editable" href="#" data-type="date" data-title="Due Date" data-pk="{{ assignment.id }}" data-name="due_date" data-format="YYYY-MM-DD" data-viewformat="MMM DD, YYYY" data-value="{{ due_date }}">{{ assignment.due_date }}</a></p>
+    </div>
+
+
+    <label><input type="checkbox" class="toggle-completed" id="{{ assignment.id }}"{% if assignment.completed %} checked{% endif %}>Completed</label>
+    <br>
+    <h3>Actions</h3>
+    <a href="/assignments/delete/{{ assignment.id }}/" class="ui-btn ui-btn-icon-left ui-icon-delete">Delete</a>
+
+{% endblock %}
+
+{% block scripts %}
+
+    <script type="text/javascript">
+    // set up prerequisites
+    $.fn.editable.defaults.mode = 'inline';
+    $.fn.editable.defaults.url = '{% url "planda:assignment_edit" %}';
+
+    $(".editable").editable({
+            params: {
+                csrfmiddlewaretoken: $.cookie("csrftoken")
+            }
+    });
+
+    $(".editable").editable('disable');
+
+    $("#toggle-editable").click(function() {
+        $(this).toggleClass("ui-btn-active");
+        $(".editable").editable('toggleDisabled');
+    })
+
+    $(".toggle-completed").change(function() {
+
+    var sender = this;
+
+    $.ajax({
+        'url': '/assignments/' + sender.id + "/toggle_completed/",
+        'complete': function(response) {
+            var data = $.parseJSON(response.responseText);
+            if(!data['changed']) {
+                sender.removeAttr('checked');
+            }
+        }
+    })
+
+});
+    </script>
 
 {% endblock %}
 
