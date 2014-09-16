@@ -13,11 +13,11 @@
     <br>
     <form action="{% url 'planda:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
         {% csrf_token %}
-        <input type="text" placeholder="Usernane" name="username" required="true">
+        <input type="text" placeholder="Username" name="username" required="true">
         <input type="password" placeholder="Password" name="password" required="true">
         <button type="submit" class="ui-btn ui-btn-icon-right ui-icon-sign-in">Login</button>
         <br>
-        <a href="#" class="ui-btn ui-btn-icon-right ui-icon-linux">Create an account</a>
+        <a href="{% url 'planda:create_account' %}" class="ui-btn ui-btn-icon-right ui-icon-plus" data-transition="slide">Create Account</a>
     </form>
 {% endblock %}
 

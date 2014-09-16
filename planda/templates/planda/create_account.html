@@ -1,0 +1,34 @@
+{% extends "planda/base.html" %}
+
+{% load staticfiles %}
+
+{% block page_id %}auth_home{% endblock %}
+
+{% block header_text %}Create Account{% endblock %}
+{% block title %}Create Account{% endblock %}
+
+
+{% block header_buttons %}
+    <a href="{% url 'planda:index' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l" data-transition="slide" data-direction="reverse">Login</a>
+{% endblock %}
+
+
+{% block main_content %}
+    <br>
+    <form method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
+        {% csrf_token %}
+        <input type="text" placeholder="First Name" name="firstName" required="true">
+        <input type="text" placeholder="Last Name" name="lastName" required="true">
+        <br>
+        <input type="text" placeholder="Username" name="username" required="true">
+        <input type="email" placeholder="Email Address" name="email" required="true">
+        <br>
+        <input type="password" placeholder="Password" name="password" required="true">
+        <input type="password" placeholder="Retype Password" name="passwordRepeat" required="true">
+        <br>
+
+        <button type="submit" class="ui-btn ui-btn-icon-right ui-icon-save">Create</button>
+    </form>
+{% endblock %}
+
+{% block footer_text %}{% endblock %}

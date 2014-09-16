@@ -3,7 +3,9 @@ import json
 
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
+from django.db import IntegrityError
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
@@ -328,3 +330,29 @@ def course_add(request):
 
 def preferences(request):
     return render(request, 'planda/preferences.html')
+
+
+# Create account
+
+def create_account(request):
+    if request.user.is_authenticated():
+        return index(request)
+    else:
+        if 'username' and 'firstName'and 'lastName' and 'password' and 'email' in request.POST:
+            username = request.POST['username']
+            password = request.POST['password']
+            first_name = request.POST['firstName']
+            last_name = request.POST['lastName']
+            email = request.POST['email']
+
+            try:
+                User.objects.create_user(username, email, password, first_name=first_name, last_name=last_name)
+                messages.success(request, "Account created successfully! Please login.")
+                return index(request)
+
+            except IntegrityError:
+                messages.error(request, "That username has been taken! Try again.")
+                return HttpResponseRedirect(reverse('planda:create_account'))
+
+        else:
+            return render(request, 'planda/create_account.html')

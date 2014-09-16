@@ -34,7 +34,7 @@
 
     </head>
     <body>
-        <div data-role="page" id="{% block page_id %}{% endblock %}">
+        <div data-role="page" id="{% block page_id %}{% endblock %}" data-dom-cache="false">
             <div data-role="header" data-position="fixed">
                 {% block header_buttons %}{% endblock %}
                 <h1>{% block header_text %}{% endblock %}</h1>
