@@ -27,41 +27,25 @@
 
     <ul data-role="listview" data-split-theme="a" data-split-icon="carat-r" id="assignment-list">
     {% for course in course_list %}
-    <li data-role="list-divider">{{ course.course_name }}</li>
-        {% for assignment in course.assignments %}
-            <li class="homework-item{% if assignment.completed %} homework-item-checked{% endif %}">
-                <a href="#"><label style="border: 0px;"><input type="checkbox" id="{{ assignment.id }}" class="toggle-completed"{% if assignment.completed %} checked{% endif %}>
-                <span><strong>{{ assignment.name }}</strong></span>
-                <span style="float: right; {% if assignment.overdue %}color: firebrick; font-weight: bold;{% endif %}">{{ assignment.due_date }}</span>
-                <br>
-                <small>{{ assignment.description }}</small>
-                </label>
+        {% if course.assignments %}
+            <li data-role="list-divider">{{ course.course_name }}</li>
+            {% for assignment in course.assignments %}
+                <li class="homework-item{% if assignment.completed %} homework-item-checked{% endif %}">
+                    <a href="#">
+                        <label style="border: 0px;"><input type="checkbox" id="{{ assignment.id }}" class="toggle-completed"{% if assignment.completed %} checked{% endif %}>
+                            <span><strong>{{ assignment.name }}</strong></span>
+                            <span style="float: right; {% if assignment.overdue %}color: firebrick; font-weight: bold;{% endif %}">{{ assignment.due_date }}</span>
+                            <br>
+                            <small>{{ assignment.description }}</small>
+                        </label>
                     </a>
                 <a class="view-single-assignment" href="{% url 'planda:assignments' %}{{ assignment.id }}/" data-transition="slide">Details</a>
             </li>
-        {% endfor %}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
     </ul>
 
-{#<div data-role="popup" id="popupAddAssignment" data-theme="a" class="ui-corner-all">#}
-{#    <form action="{% url 'planda:assignment_add' %}" method="post">#}
-{#        {% csrf_token %}#}
-{#        <div style="padding:0px 25px 15px 25px;">#}
-{#            <h3>Add Assignment</h3>#}
-{#            <label>Course#}
-{#                <select name="assignmentCourse">#}
-{#                    {% for course in courses %}#}
-{#                    <option value="{{ course.id }}">{{ course.name }}</option>#}
-{#                    {% endfor %}#}
-{#                </select>#}
-{#            </label>#}
-{#            <input type="text" placeholder="Name" name="assignmentName" required>#}
-{#            <textarea placeholder="Description" name="assignmentDescription"></textarea>#}
-{#            <input data-role="date" id="assignmentDueDatePicker" name="assignmentDueDate" placeholder="Due Date" data-dateformat="yy-mm-dd">#}
-{#            <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-check">Create</button>#}
-{#        </div>#}
-{#    </form>#}
-{#</div>#}
 
 <div data-role="panel" id="panelAddAssignment" data-display="overlay" data-position="right">
     <form action="{% url 'planda:assignment_add' %}" method="post">
