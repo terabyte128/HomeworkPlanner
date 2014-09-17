@@ -15,7 +15,7 @@
 
 {% block main_content %}
     <br>
-    <form method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
+    <form id="createAccount" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
         {% csrf_token %}
         <input type="text" placeholder="First Name" name="firstName" required="true">
         <input type="text" placeholder="Last Name" name="lastName" required="true">
@@ -23,12 +23,27 @@
         <input type="text" placeholder="Username" name="username" required="true">
         <input type="email" placeholder="Email Address" name="email" required="true">
         <br>
-        <input type="password" placeholder="Password" name="password" required="true">
-        <input type="password" placeholder="Retype Password" name="passwordRepeat" required="true">
+        <input type="password" placeholder="Password" id="password" name="password" required="true">
+        <input type="password" placeholder="Retype Password" id="passwordRepeat" name="passwordRepeat" required="true">
         <br>
 
-        <button type="submit" class="ui-btn ui-btn-icon-right ui-icon-save">Create</button>
+        <button type="submit" onclick="validate();" class="ui-btn ui-btn-icon-right ui-icon-save">Create</button>
     </form>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+function validate() {
+    if($("#password").val() === $("#passwordRepeat").val()) {
+        return true;
+    }
+
+    alert("Your passwords did not match, please try again.")
+    $("#password").val("");
+    $("#passwordRepeat").val("");
+    return false;
+}
+</script>
 {% endblock %}
 
 {% block footer_text %}{% endblock %}

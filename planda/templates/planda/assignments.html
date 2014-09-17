@@ -34,7 +34,7 @@
                     <a href="#">
                         <label style="border: 0px;"><input type="checkbox" id="{{ assignment.id }}" class="toggle-completed"{% if assignment.completed %} checked{% endif %}>
                             <span><strong>{{ assignment.name }}</strong></span>
-                            <span style="float: right; {% if assignment.overdue %}color: firebrick; font-weight: bold;{% endif %}">{{ assignment.due_date }}</span>
+                            <span class="due-date" style="{% if assignment.overdue %}color: firebrick; font-weight: bold;{% endif %}">{{ assignment.due_date }}</span>
                             <br>
                             <small>{{ assignment.description }}</small>
                         </label>

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964055db-7805-410d-b1ef-883872c0b052" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/login.html" afterPath="$PROJECT_DIR$/planda/templates/planda/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/assignments.html" afterPath="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/templates/planda/create_account.html" afterPath="$PROJECT_DIR$/planda/templates/planda/create_account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeworkPlanner/settings.py" afterPath="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/static/planda/css/style.css" afterPath="$PROJECT_DIR$/planda/static/planda/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeworkPlanner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +33,38 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
+            <state line="24" column="21" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
+      <file leaf-file-name="assignments.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.55452865" vertical-offset="0" max-vertical-offset="541">
+            <state line="37" column="32" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-15.666667" vertical-offset="179" max-vertical-offset="1545">
+              <folding>
+                <element signature="e#1175#1195#0" expanded="true" />
+                <element signature="e#1449#1531#0" expanded="true" />
+                <element signature="e#2180#2205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_account.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/planda/templates/planda/create_account.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="33" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.5827937" vertical-offset="0" max-vertical-offset="1081">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -77,7 +104,6 @@
         <option value="$PROJECT_DIR$/planda/static/planda/css/jquery.mobile.datepicker.css" />
         <option value="$PROJECT_DIR$/planda/static/planda/js/jquery.mobile.datepicker.js" />
         <option value="$PROJECT_DIR$/planda/static/planda/css/jquery.mobile.datepicker.theme.css" />
-        <option value="$PROJECT_DIR$/planda/static/planda/css/style.css" />
         <option value="$PROJECT_DIR$/planda/templates/planda/single_assignment.html" />
         <option value="$PROJECT_DIR$/planda/views/assignments.py" />
         <option value="$PROJECT_DIR$/HomeworkPlanner/urls.py" />
@@ -87,21 +113,22 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/HomeworkPlanner/wsgi.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
         <option value="$PROJECT_DIR$/planda/urls.py" />
         <option value="$PROJECT_DIR$/planda/templates/planda/base.html" />
         <option value="$PROJECT_DIR$/planda/views.py" />
-        <option value="$PROJECT_DIR$/planda/templates/planda/create_account.html" />
         <option value="$PROJECT_DIR$/planda/templates/planda/preferences.html" />
-        <option value="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
         <option value="$PROJECT_DIR$/planda/templates/planda/login.html" />
+        <option value="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
+        <option value="$PROJECT_DIR$/planda/static/planda/css/style.css" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/create_account.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="2560" />
+    <option name="height" value="1574" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -129,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,6 +234,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeworkPlanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="HomeworkPlanner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -232,6 +306,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,6 +319,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="ex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IngrahamRobotics" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -537,12 +613,16 @@
       <created>1410898810163</created>
       <updated>1410898810163</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed courses from assignment list when they did not have any associated assignments.">
+      <created>1410929431909</created>
+      <updated>1410929431909</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="2560" height="1574" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -550,11 +630,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25694445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24720497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24717608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -585,7 +665,8 @@
     <MESSAGE value="added requirements.txt" />
     <MESSAGE value="added requirements.txt (actually)" />
     <MESSAGE value="Added account creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added account creation" />
+    <MESSAGE value="Removed courses from assignment list when they did not have any associated assignments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed courses from assignment list when they did not have any associated assignments." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,13 +674,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="253" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="65" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
@@ -640,7 +714,11 @@
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="76" selection-start="0" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="735">
-          <folding />
+          <folding>
+            <element signature="e#1175#1195#0" expanded="true" />
+            <element signature="e#1449#1531#0" expanded="true" />
+            <element signature="e#2180#2205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -674,7 +752,11 @@
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="25" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="345">
-          <folding />
+          <folding>
+            <element signature="e#1175#1195#0" expanded="true" />
+            <element signature="e#1449#1531#0" expanded="true" />
+            <element signature="e#2180#2205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,11 +830,6 @@
         <state line="64" column="1" selection-start="2589" selection-end="2589" vertical-scroll-proportion="0.9512987" vertical-offset="374" max-vertical-offset="1050" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
@@ -810,32 +887,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="828" selection-end="828" vertical-scroll-proportion="0.4990758" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="64" selection-start="417" selection-end="417" vertical-scroll-proportion="0.21238938" vertical-offset="0" max-vertical-offset="565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/create_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="153" selection-start="382" selection-end="382" vertical-scroll-proportion="0.30499077" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="e#462#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="29" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.52865064" vertical-offset="224" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
@@ -856,9 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="41" selection-end="41" vertical-scroll-proportion="0.051903114" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="2" column="21" selection-start="41" selection-end="41" vertical-scroll-proportion="0.051903114" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
@@ -868,16 +920,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
+        <state line="20" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.3984064" vertical-offset="0" max-vertical-offset="753">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.55452865" vertical-offset="0" max-vertical-offset="541">
+        <state line="421" column="0" selection-start="15484" selection-end="15484" vertical-scroll-proportion="0.33303168" vertical-offset="5902" max-vertical-offset="9090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="828" selection-end="828" vertical-scroll-proportion="0.24976873" vertical-offset="0" max-vertical-offset="1081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-15.666667" vertical-offset="179" max-vertical-offset="1545">
+          <folding>
+            <element signature="e#1175#1195#0" expanded="true" />
+            <element signature="e#1449#1531#0" expanded="true" />
+            <element signature="e#2180#2205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/create_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="33" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.5827937" vertical-offset="0" max-vertical-offset="1081">
           <folding />
         </state>
       </provider>
