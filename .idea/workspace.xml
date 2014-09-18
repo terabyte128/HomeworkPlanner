@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="964055db-7805-410d-b1ef-883872c0b052" name="Default" comment="">
+    <list default="true" id="964055db-7805-410d-b1ef-883872c0b052" name="Default" comment="Need to turn off debug before pushing, derp.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planda/views.py" afterPath="$PROJECT_DIR$/planda/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeworkPlanner.iws" />
@@ -24,44 +26,7 @@
     <favorites_list name="HomeworkPlanner" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="765" selection-end="765" vertical-scroll-proportion="0.12660798" vertical-offset="173" max-vertical-offset="1770">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assignments.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="32" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="1545">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_account.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/templates/planda/create_account.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="33" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-26.25" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -106,20 +71,20 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/planda/urls.py" />
         <option value="$PROJECT_DIR$/planda/templates/planda/base.html" />
-        <option value="$PROJECT_DIR$/planda/views.py" />
         <option value="$PROJECT_DIR$/planda/templates/planda/preferences.html" />
-        <option value="$PROJECT_DIR$/planda/templates/planda/login.html" />
         <option value="$PROJECT_DIR$/planda/static/planda/css/style.css" />
         <option value="$PROJECT_DIR$/planda/templates/planda/assignments.html" />
         <option value="$PROJECT_DIR$/planda/templates/planda/create_account.html" />
+        <option value="$PROJECT_DIR$/planda/views.py" />
+        <option value="$PROJECT_DIR$/planda/templates/planda/login.html" />
         <option value="$PROJECT_DIR$/HomeworkPlanner/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1574" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +112,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,6 +262,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +382,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeworkPlanner" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -443,27 +428,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HomeworkPlanner" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -612,11 +577,15 @@
       <created>1410929959188</created>
       <updated>1410929959188</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Need to turn off debug before pushing, derp.">
+      <created>1410930332362</created>
+      <updated>1410930332362</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1574" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -624,20 +593,20 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24717608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24596274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -662,7 +631,8 @@
     <MESSAGE value="Added account creation" />
     <MESSAGE value="Removed courses from assignment list when they did not have any associated assignments." />
     <MESSAGE value="Password validation actually does something now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Password validation actually does something now." />
+    <MESSAGE value="Need to turn off debug before pushing, derp." />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to turn off debug before pushing, derp." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -874,11 +844,6 @@
         <state line="10" column="64" selection-start="417" selection-end="417" vertical-scroll-proportion="0.21238938" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="264" selection-end="264" vertical-scroll-proportion="-8.238754" vertical-offset="4867" max-vertical-offset="5445" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planda/templates/planda/preferences.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="26" selection-start="246" selection-end="246" vertical-scroll-proportion="0.27075812" vertical-offset="0" max-vertical-offset="554" />
@@ -887,16 +852,6 @@
     <entry file="file://$PROJECT_DIR$/planda/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="41" selection-end="41" vertical-scroll-proportion="0.051903114" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="528" selection-end="528" vertical-scroll-proportion="0.36044362" vertical-offset="0" max-vertical-offset="541" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.3984064" vertical-offset="0" max-vertical-offset="753" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py">
@@ -909,30 +864,53 @@
         <state line="18" column="16" selection-start="828" selection-end="828" vertical-scroll-proportion="0.24976873" vertical-offset="0" max-vertical-offset="1081" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+        <state line="13" column="39" selection-start="528" selection-end="528" vertical-scroll-proportion="0.35135135" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="32" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planda/templates/planda/create_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="33" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-26.25" vertical-offset="0" max-vertical-offset="810">
+        <state line="21" column="0" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.5675676" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeworkPlanner/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="765" selection-end="765" vertical-scroll-proportion="0.12660798" vertical-offset="173" max-vertical-offset="1770">
+        <state line="24" column="22" selection-start="765" selection-end="765" vertical-scroll-proportion="-0.6735751" vertical-offset="750" max-vertical-offset="1770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="52" selection-start="2672" selection-end="2672" vertical-scroll-proportion="0.59067357" vertical-offset="978" max-vertical-offset="5490">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.69372696" vertical-offset="179" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/templates/planda/create_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="33" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.6756757" vertical-offset="255" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planda/static/planda/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.59585494" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
