@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     url(r'^login/$', views.login_user, name='login_user'),
     url(r'^logout/$', views.logout_user, name='logout_user'),
     url(r'^preferences/$', views.preferences, name='preferences'),
+    url(r'^preferences/edit/$', views.preferences_edit, name='preferences_edit'),
     url(r'^create/$', views.create_account, name='create_account'),
 
     # assignment patterns

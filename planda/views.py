@@ -315,6 +315,7 @@ def course_delete(request, course_id):
     return HttpResponseRedirect(reverse('planda:courses'))
 
 
+@login_required
 def course_add(request):
     if 'courseName' in request.POST:
         name = request.POST['courseName']
@@ -331,8 +332,16 @@ def course_add(request):
 # Preferences
 
 
+@login_required
 def preferences(request):
-    return render(request, 'planda/preferences.html')
+
+    user = request.user
+
+    context = {
+        'user': user
+    }
+
+    return render(request, 'planda/preferences.html', context)
 
 
 # Create account
@@ -359,3 +368,22 @@ def create_account(request):
 
         else:
             return render(request, 'planda/create_account.html')
+
+
+@login_required
+def preferences_edit(request):
+    name = request.POST['name']
+    pk = request.POST['pk']
+    value = request.POST['value']
+
+    try:
+        user = User.objects.get(id=pk)
+
+        if user == request.user:
+            setattr(user, name, value)
+            user.save()
+
+            return HttpResponse(status=200)
+
+    except User.DoesNotExist:
+        return Http404

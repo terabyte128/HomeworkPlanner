@@ -7,8 +7,33 @@
 {% block header_text %}Preferences{% endblock %}
 {% block title %}Preferences{% endblock %}
 
+{% block header_buttons %}
+    <a href="{% url 'planda:index' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l" data-transition="slide" data-direction="reverse">Home</a>
+{% endblock %}
+
 {% block main_content %}
-    <p>I am a placeholder.</p>
+    <form style="max-width: 500px; margin-left: auto; margin-right: auto;">
+        <p>First Name: <a class="editable" href="#" data-type="text" data-title="First Name" data-pk="{{ user.id }}" data-name="first_name">{{ user.first_name }}</a></p>
+        <p>Last Name: <a class="editable" href="#" data-type="text" data-title="Last Name" data-pk="{{ user.id }}" data-name="last_name">{{ user.last_name }}</a></p>
+        <p>Email Address: <a class="editable" href="#" data-type="email" data-title="Email Address" data-pk="{{ user.id }}" data-name="email">{{ user.email }}</a></p>
+    </form>
+{% endblock %}
+
+{% block scripts %}
+
+    <script type="text/javascript">
+    // set up prerequisites
+    $.fn.editable.defaults.mode = 'inline';
+    $.fn.editable.defaults.url = '{% url "planda:preferences_edit" %}';
+
+    $(".editable").editable({
+            params: {
+                csrfmiddlewaretoken: $.cookie("csrftoken")
+            }
+    });
+
+    </script>
+
 {% endblock %}
 
 {% block footer_text %}{% endblock %}

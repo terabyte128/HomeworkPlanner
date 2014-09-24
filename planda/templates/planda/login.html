@@ -9,7 +9,7 @@
 
 {% block main_content %}
     <br>
-    <div style="text-align: center;"><image src="{% static 'planda/img/panda.png' %}" style="max-width: 300px;" /></div>
+    <div style="text-align: center;"><image src="{% static 'planda/img/panda.png' %}" style="max-width: 250px;" ></image></div>
     <br>
     <form action="{% url 'planda:login_user' %}" method="post" style="max-width: 500px; margin-left: auto; margin-right: auto;" data-transition="pop">
         {% csrf_token %}
@@ -18,6 +18,7 @@
         <button type="submit" class="ui-btn ui-btn-icon-right ui-icon-sign-in">Login</button>
         <br>
         <a href="{% url 'planda:create_account' %}" class="ui-btn ui-btn-icon-right ui-icon-plus" data-transition="slide">Create Account</a>
+        <a target="_blank" href="https://docs.google.com/forms/d/1xdtaFDQ96zgSJk6AYoL4bNWgmrmI41tg8XglEvYeONc/viewform?usp=send_form" class="ui-btn ui-btn-icon-right ui-icon-bug">Report a Bug</a>
         <a target="_blank" href="https://github.com/terabyte128/HomeworkPlanner" class="ui-btn ui-btn-icon-right ui-icon-github">Find us on GitHub</a>
     </form>
 {% endblock %}
