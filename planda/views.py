@@ -81,7 +81,7 @@ def assignments(request):
             # sorry, future self
             # if not (not overdue and assignment.due_date < datetime.now().date()):
 
-            if overdue or (assignment.due_date <= datetime.now().date() and not assignment.completed):
+            if overdue or (assignment.due_date >= datetime.now().date() and not assignment.completed):
 
                 single_wrapper = {
                     'name': assignment.name,
