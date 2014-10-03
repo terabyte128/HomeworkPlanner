@@ -20,9 +20,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'y1abpn-xt*5kqwjpc74u@tuk2c2+g9_zh00a8xe-bgt=-wc7kt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-TEMPLATE_DEBUG = False
+TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -111,3 +111,9 @@ STATICFILES_DIRS = (
 # Disable SSLify if DEBUG is enabled.
 if DEBUG:
     SSLIFY_DISABLE = True
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'planda.bot@gmail.com'
+EMAIL_HOST_PASSWORD = 'littleangryactsnake'

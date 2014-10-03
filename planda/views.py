@@ -387,3 +387,8 @@ def preferences_edit(request):
 
     except User.DoesNotExist:
         return Http404
+
+
+@login_required
+def send_mail(request):
+    pass

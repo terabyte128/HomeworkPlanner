@@ -80,11 +80,13 @@ $(".toggle-completed").change(function() {
 
     var sender = this;
 
+    $(sender).closest(".homework-item").toggleClass("homework-item-checked");
+
     $.ajax({
         'url': '/assignments/' + sender.id + "/toggle_completed/",
         'complete': function(response) {
             var data = $.parseJSON(response.responseText);
-            if(data['changed']) {
+            if(!data['changed']) {
                 $(sender).closest(".homework-item").toggleClass("homework-item-checked");
             }
         }
