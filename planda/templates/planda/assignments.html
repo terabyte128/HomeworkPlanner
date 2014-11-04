@@ -28,7 +28,7 @@
     <ul data-role="listview" data-split-theme="a" data-split-icon="carat-r" id="assignment-list">
     {% for course in course_list %}
         {% if course.assignments %}
-            <li data-role="list-divider">{{ course.course_name }}</li>
+            <li data-role="list-divider" type="course-item" assignments="{{ course.assignments|length }}">{{ course.course_name }}</li>
             {% for assignment in course.assignments %}
                 <li class="homework-item{% if assignment.completed %} homework-item-checked{% endif %}">
                     <a href="#">
@@ -76,11 +76,36 @@ $("#assignmentDueDatePicker").date({
     dateFormat: 'yy-mm-dd'
 })
 
+var gsend;
+
 $(".toggle-completed").change(function() {
 
     var sender = this;
 
+    gsend = sender;
+
     $(sender).closest(".homework-item").toggleClass("homework-item-checked");
+
+    setTimeout(function() {
+        $(sender).closest(".homework-item").slideToggle();
+
+        var course = $($(sender).closest('.course-item'));
+
+
+        var assignments = parseInt($(course).attr('assignments'));
+
+        console.log('assignments='+assignments);
+
+        assignments -= 1;
+        $(course).attr('assignments', assignments);
+
+        console.log('assignments='+assignments);
+
+        if(assignments == 0) {
+            $(course).slideToggle();
+        }
+
+    }, 100);
 
     $.ajax({
         'url': '/assignments/' + sender.id + "/toggle_completed/",
@@ -88,6 +113,8 @@ $(".toggle-completed").change(function() {
             var data = $.parseJSON(response.responseText);
             if(!data['changed']) {
                 $(sender).closest(".homework-item").toggleClass("homework-item-checked");
+                $(sender).closest(".homework-item").slideToggle();
+                $(sender).closest('.course-item').slideDown();
             }
         }
     })
