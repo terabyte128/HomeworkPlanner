@@ -61,12 +61,9 @@
             </label>
             <input type="text" placeholder="Name" name="assignmentName" required>
             <textarea placeholder="Description" name="assignmentDescription"></textarea>
-{#            <input data-role="date" id="assignmentDueDatePicker" name="assignmentDueDate" placeholder="Due Date" data-dateformat="yy-mm-dd">#}
-            {#  waaaay simpler #}
-            <label>Due Date</label>
-            <input type="date" name="assignmentDueDate" placeholder="Due Date" required>
+            <input data-role="date" id="assignmentDueDatePicker" name="assignmentDueDate" placeholder="Due Date" data-dateformat="yy-mm-dd">
             <br>
-            <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-check">Create</button>
+            <button type="submit" onsubmit="location.reload();" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-check">Create</button>
         </div>
     </form>
 </div>
