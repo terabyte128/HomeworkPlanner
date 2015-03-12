@@ -6,7 +6,7 @@
 
 {% block header_buttons %}
     <a href="{% url 'planda:index' %}" class="ui-btn-left ui-btn ui-btn-icon-left ui-icon-carat-l" data-transition="slide" data-direction="reverse">Home</a>
-    <a href="#panelAddAssignment" data-display="push" data-position="right" data-rel="panel" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-plus">Add</a>
+    <a href="#panelAddAssignment" id="panelAddAssignment" data-display="push" data-position="right" data-rel="panel" class="ui-btn-right ui-btn ui-btn-icon-right ui-icon-plus">Add</a>
 {% endblock %}
 
 {% block header_text %}Assignments{% endblock %}
@@ -15,130 +15,122 @@
 
     <style type="text/css">
 
-    .ui-listview>.ui-li-static {
-        padding: 0;
-    }
+        .ui-listview>.ui-li-static {
+            padding: 0;
+        }
 
-    .ui-checkbox {
-        margin: -12px;
-    }
+        .ui-checkbox {
+            margin: -12px;
+        }
 
     </style>
 
     <ul data-role="listview" data-split-theme="a" data-split-icon="carat-r" id="assignment-list">
-    {% for course in course_list %}
-        {% if course.assignments %}
-            <li data-role="list-divider" class="course-item" assignments="{{ course.assignments|length }}">{{ course.course_name }}</li>
-            {% for assignment in course.assignments %}
-                <li class="homework-item{% if assignment.completed %} homework-item-checked{% endif %}">
-                    <a href="#">
-                        <label style="border: 0px;"><input type="checkbox" id="{{ assignment.id }}" class="toggle-completed"{% if assignment.completed %} checked{% endif %}>
-                            <span><strong>{{ assignment.name }}</strong></span>
-                            <span class="due-date" style="{% if assignment.overdue %}color: firebrick; font-weight: bold;{% endif %}">{{ assignment.due_date }}</span>
-                            <br>
-                            <small>{{ assignment.description }}</small>
-                        </label>
-                    </a>
-                <a class="view-single-assignment" href="{% url 'planda:assignments' %}{{ assignment.id }}/" data-transition="slide">Details</a>
-            </li>
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
+        {% for course in course_list %}
+            {% if course.assignments %}
+                <li data-role="list-divider" class="course-item" assignments="{{ course.assignments|length }}">{{ course.course_name }}</li>
+                {% for assignment in course.assignments %}
+                    <li class="homework-item{% if assignment.completed %} homework-item-checked{% endif %}">
+                        <a href="#">
+                            <label style="border: 0px;"><input type="checkbox" id="{{ assignment.id }}" class="toggle-completed"{% if assignment.completed %} checked{% endif %}>
+                                <span><strong>{{ assignment.name }}</strong></span>
+                                <span class="due-date" style="{% if assignment.overdue %}color: firebrick; font-weight: bold;{% endif %}">{{ assignment.due_date }}</span>
+                                <br>
+                                <small>{{ assignment.description }}</small>
+                            </label>
+                        </a>
+                        <a class="view-single-assignment" href="{% url 'planda:assignments' %}{{ assignment.id }}/" data-transition="slide">Details</a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
     </ul>
 
 
-<div data-role="panel" id="panelAddAssignment" data-display="overlay" data-position="right">
-    <form action="{% url 'planda:assignment_add' %}" method="post">
-        {% csrf_token %}
-        <div>
-            <h3 style="margin-top: 10px;">Add Assignment</h3>
-            <label>Course
-                <select name="assignmentCourse">
-                    {% for course in courses %}
-                    <option value="{{ course.id }}">{{ course.name }}</option>
-                    {% endfor %}
-                </select>
-            </label>
-            <input type="text" placeholder="Name" name="assignmentName" required>
-            <textarea placeholder="Description" name="assignmentDescription"></textarea>
-            <input data-role="date" id="assignmentDueDatePicker" name="assignmentDueDate" placeholder="Due Date" data-dateformat="yy-mm-dd">
-            <br>
-            <button type="submit" onsubmit="location.reload();" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-check">Create</button>
-        </div>
-    </form>
-</div>
+    <div data-role="panel" id="panelAddAssignment" data-display="overlay" data-position="right">
+        <form action="{% url 'planda:assignment_add' %}" method="post">
+            {% csrf_token %}
+            <div>
+                <h3 style="margin-top: 10px;">Add Assignment</h3>
+                <label>Course
+                    <select name="assignmentCourse">
+                        {% for course in courses %}
+                            <option value="{{ course.id }}">{{ course.name }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+                <input type="text" placeholder="Name" name="assignmentName" required>
+                <textarea placeholder="Description" name="assignmentDescription"></textarea>
+                <input id="assignmentDueDatePicker" name="assignmentDueDate" placeholder="Due Date" type="text" data-inline="false" data-role="date" data-date-format="yy-mm-dd">
+                <br>
+                <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-check">Create</button>
+            </div>
+        </form>
+    </div>
 
 {% endblock %}
 
 {% block scripts %}
-<script type="text/javascript">
+    <script type="text/javascript">
 
-$("#assignmentDueDatePicker").date({
-    dateFormat: 'yy-mm-dd'
-})
+        $(".toggle-completed").on('change', function(event) {
 
-var gs, gc;
+            var sender = $(event.target);
 
-$(".toggle-completed").on('change', function(event) {
+            /*
+             briefly show a checked box to give some satisfaction
+             */
+            sender.closest(".homework-item").toggleClass("homework-item-checked");
 
-    var sender = $(event.target);
-    gs = sender;
+            /*
+             send an ajax request to actually update the damn thing
+             */
+            $.ajax({
+                'url': '/assignments/' + sender.attr('id') + "/toggle_completed/",
+                'complete': function(response) {
+                    var data = $.parseJSON(response.responseText);
+                    if(!data['changed']) {
+                        alert('something went wrong please try again');
+                        location.reload();
+                    }
+                }
+            })
 
-    /*
-    briefly show a checked box to give some satisfaction
-    */
-    sender.closest(".homework-item").toggleClass("homework-item-checked");
+            /*
+             wait a lil bit to make things disappear in a cool way
+             */
+            setTimeout(function() {
 
-    /*
-    send an ajax request to actually update the damn thing
-    */
-    $.ajax({
-        'url': '/assignments/' + sender.attr('id') + "/toggle_completed/",
-        'complete': function(response) {
-            var data = $.parseJSON(response.responseText);
-            if(!data['changed']) {
-                alert('something went wrong please try again');
-                location.reload();
-            }
-        }
-    })
+                /*
+                 get the course by selecting the parent li then
+                 traversing backwards until we reach the course item
+                 */
+                var course = $(sender.closest('li').prevAll('.course-item:first'));
 
-    /*
-    wait a lil bit to make things disappear in a cool way
-    */
-    setTimeout(function() {
+                /*
+                 get the number of assignments for the course
+                 */
+                var assignments = parseInt(course.attr('assignments'));
 
-        /*
-        get the course by selecting the parent li then
-        traversing backwards until we reach the course item
-        */
-        var course = $(sender.closest('li').prevAll('.course-item:first'));
-        gc = course;
+                /*
+                 subtract 1 from the assignments and stick it back in the attr
+                 so we can use it again next time this function is called
+                 */
+                assignments -= 1;
+                course.attr('assignments', assignments);
 
-        /*
-        get the number of assignments for the course
-         */
-        var assignments = parseInt(course.attr('assignments'));
+                sender.closest(".homework-item").slideToggle();
 
-        /*
-        subtract 1 from the assignments and stick it back in the attr
-        so we can use it again next time this function is called
-         */
-        assignments -= 1;
-        course.attr('assignments', assignments);
+                if(assignments == 0) {
+                    course.slideToggle();
+                }
 
-        sender.closest(".homework-item").slideToggle();
-
-        if(assignments == 0) {
-            course.slideToggle();
-        }
-
-    }, 200);
+            }, 200);
 
 
-});
+        });
 
-</script>
+    </script>
 {% endblock %}
 
 {% block footer_text %}{% endblock %}

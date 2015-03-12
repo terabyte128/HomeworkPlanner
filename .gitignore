@@ -2,3 +2,5 @@ venv/
 *.pyc
 staticfiles
 .idea/
+db.sqlite3
+HomeworkPlanner/settings.py
